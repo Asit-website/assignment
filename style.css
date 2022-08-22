@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.body
+{
+    margin: 0px 40px;
+    background-color: cornsilk;
+}
+
+.section1
+{
+    position: relative;
+    background-color: rgb(3, 3, 47);
+    width: 100%;
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+}
+.point .point1{
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.point i{
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.point .open{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  margin: 0 4px;
+  font-weight: 500;
+}
+
+.heading{
+    padding: 20px 40px;
+}
+
+.heading h2{
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 45px;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+.heading p{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+.heading .first-para{
+    margin-top: 30px;
+}
+
+.heading .first-para p{
+    margin: 12px 0px;
+}
+
+.heading button{
+   padding: 18px 30px;
+   margin-top: 30px;
+   font-size: 17px;
+   font-family: 'Nunito Sans', sans-serif;
+   color:rgb(5, 5, 110);
+   outline: none;
+   cursor: pointer;
+   font-weight: 600;
+   border-radius: 5px;
+}
+
+.heading button:hover{
+    background-color: rgb(127, 127, 236);
+    transition: 0.5s;
+}
+.image-section{
+    position: relative;
+}
+.image-section img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    top: 4px;
+    z-index: 100;
+}
+
+.urban{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.urban .urban1 img{
+    width: 500px;
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    object-fit: cover;
+    border-radius: 5px;
+    z-index: 100;
+    filter: brightness(.6);
+}
+
+.urban .urban1 img:hover{
+    transition: 0.5s;
+    filter: brightness(.8);
+   transform: translateY(2px);
+}
+
+.urban1 h3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.urban1 .church{
+   line-height: 26px;
+}
+.location{
+    display: flex;
+    margin-top: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location .loc{
+    color: black;
+    font-size: 15px;
+    font-weight: 15px;
+}
+.location p{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.dolar{
+    display: flex;
+    margin-top: 12px;
+    position: relative;
+}
+
+.dolar .first-dolar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dolar .first-dolar div{
+    height: 10px;
+    width: 14px;
+    border: 1px solid black;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    position: relative;
+}
+.dolar .first-dolar div p{
+    position: absolute;
+   top: -9px;
+   left: 2px;
+}
+.dolar .first-dolar p{
+    margin: 0 3px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+.dolar .second-dolar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.dolar .second-dolar i{
+  font-size: 13px;
+}
+
+.dolar .second-dolar p{
+    margin: 0 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reserve{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.reserve i{
+    font-size: 14px;
+    color: red;
+    margin: 0 4px;
+    
+}
+
+.reserve p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.find-more{
+    background-color: rgb(3, 3, 47);
+    padding: 20px 40px;
+}
+
+.find-more h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.find-more button{
+    background: transparent;
+    border: 1.5px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    padding: 15px 20px;
+    margin-top: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.find-more button:hover{
+    background-color: rgb(127, 127, 236);
+    transition: 0.5s;
+}
+
+.other-find{
+    background-color: crimson;
+    padding: 20px 40px;
+}
+.other-find p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.85;
+}
+
+.download-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.download-app strong{
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+}
+
+.download-app i{
+    color: #ffffff;
+    margin: 0 5px;
+}
+.app-store{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.app-store img{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 0 40px;
+    height: auto;
+}
+.app-store .point2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.point2 .point3{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: crimson;
+}
+
+.point2 i{
+    font-size: 40px;
+    color: crimson;
+    margin: 0 5px;
+}
+
+.point2 p{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  color: crimson;
+  margin: 0 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    padding: 10px 40px;
+}
+.linksSocial{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.linksSocial i{
+    font-size: 30px;
+   color: crimson;
+}
+
+.linksSocial i:hover{
+    transition: all 0.5s ease-in;
+    transform: translateY(1px);
+}
+
+.linksSocial .twit{
+    margin: 0 25px;
+}
+
+ .update{
+    margin-top: 12px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.foot .first{
+    margin-top: 15px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.foot .anchor{
+    margin-top: 12px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+
+.nash{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.nash i{
+    font-size: 14px;
+    color: crimson;
+}
+.nash p{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 4px;
+}
+
+.foot .question{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.foot .second{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.lower-footer{
+    margin-top: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.lower-footer .second-lower-footer{
+    margin-top: 12px;
+}
+
+/* ===========media query============= */
+
+@media only screen and (max-width:998px){
+    .app-store{
+        flex-direction: column;
+
+    }
+    .img{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:778px){
+    .img{
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width:571px){
+    .heading{
+        padding: 20px 20px;
+    }
+    .heading h2{
+        font-size: 20px;
+    }
+    .heading p{
+        font-size: 14px;
+    }
+    .heading button{
+        padding: 15px 15px;
+        font-size: 10px;
+
+    }
+    .point{
+        padding: 20px 20px;
+    }
+    .point .open{
+        font-size: 15px;
+    }
+    .urban{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+    .urban .urban1 img{
+     height: 200px;
+    }
+    .urban h3{
+        text-align: center;
+        font-size: 18px;
+    }
+    .find-more{
+        padding: 20px 20px;
+    }
+    .find-more h2{
+        font-size: 18px;
+    }
+     .location{
+        justify-content: center;
+     }
+    .location p{
+        font-size: 15px;
+    }
+    .dolar{
+        justify-content: center;
+    }
+    .reserve{
+        justify-content: center;
+    }
+
+    .urban1{
+        margin-top: 20px;
+    }
+    .app-store{
+        padding: 20px 20px;
+    }
+    .app-store img{
+        margin: 10px 0px;
+    }
+
+    .point2 p{
+        font-size: 16px;
+    }
+
+    .other-find{
+        padding: 20px 20px;
+    }
+    .other-find p{
+        font-size: 14px;
+    }
+    .profile{
+        padding: 10px 20px;
+    }
+    .foot{
+        font-size: 12px;
+    }
+
+    .update{
+        font-size: 12px;
+    }
+    .foot .first{
+        font-size: 12px;
+    }
+    .foot .anchor{
+        font-size: 12px;
+    }
+    .nash i{
+        font-size: 12px;
+    }
+    .nash p{
+        font-size: 12px;
+    }
+    .foot .question{
+        font-size: 12px;
+    }
+    .foot .second{
+        font-size: 12px;
+    }
+
+    .lower-footer{
+        font-size: 11px;
+    }
+
+    .dolar .second-dolar p{
+        font-size: 12px;
+    }
+    
+}
